@@ -1,3 +1,5 @@
+import com.sun.org.apache.xml.internal.utils.StringToIntTable;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -21,7 +23,8 @@ public class Simulation {
             _key = line.split("=")[0];
             _value = line.split("=")[1];
             System.out.println(_key + " = " + _value);
-            Item item =
+            Item items = new Item();
+            items.setItems(_key, new Integer(_value));
         }
 
     }

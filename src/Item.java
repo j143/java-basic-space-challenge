@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class Item {
     String name;
-    int weight;
+    Integer weight;
 
     Map<String, Integer> items;
 
@@ -12,7 +12,7 @@ public class Item {
         items = new HashMap<>();
     }
 
-    public void main(String name, int weight) {
+    public void setItems(String name, Integer weight) {
         this.name = name;
         this.weight = weight;
         items.put(name, weight);
