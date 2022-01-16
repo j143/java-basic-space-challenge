@@ -1,8 +1,6 @@
-import com.sun.org.apache.xml.internal.utils.StringToIntTable;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Simulation {
