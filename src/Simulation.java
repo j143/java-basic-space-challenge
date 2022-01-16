@@ -20,6 +20,8 @@ public class Simulation {
             String line = scanner.nextLine();
             _key = line.split("=")[0];
             _value = line.split("=")[1];
+            System.out.println(_key + " = " + _value);
+            Item item =
         }
 
     }
