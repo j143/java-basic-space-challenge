@@ -8,7 +8,7 @@ public class Simulation {
     private static String _key;
     private static String _value;
 
-    public void main(String [] args) throws FileNotFoundException {
+    public static void main(String [] args) throws FileNotFoundException {
         loadItems();
     }
 
